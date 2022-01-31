@@ -14,9 +14,9 @@ public class EjercicioDescuento {
 		System.out.println("Escribe tu monto de compra");
 		int compra = sc.nextInt();
 		
-		if (compra <= 1000) {
+		if (compra <= 999) {
 			System.out.println("Su monto no califica a descuento");
-		} else if (compra >= 1001 && compra <= 4999) {
+		} else if (compra >= 1000 && compra <= 4999) {
 			double compraDes = compra * 0.10;
 			System.out.println("Tu total con descuento del 10% es: " + (compra - compraDes));
 			System.out.println("Valor original de compra: " + compra);
